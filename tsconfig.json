@@ -1,13 +1,9 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "ES2022",
     "outDir": "./dist",
-    "rootDir": "./src",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true
+    "rootDir": "./src"
   },
+  "extends": "@tsconfig/node-lts/tsconfig.json",
   "include": ["src", "express.d.ts"],
   "exclude": ["node_modules"]
 }
