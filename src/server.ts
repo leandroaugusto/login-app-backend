@@ -4,9 +4,9 @@ import cookieParser from 'cookie-parser';
 import express from 'express';
 import cors, { CorsOptions } from 'cors';
 
-import connectDB from './config/db';
-import authRoutes from './routes/authRoutes';
-import usersRoutes from './routes/usersRoutes';
+import connectDB from '@/config/db';
+import authRoutes from '@/routes/authRoutes';
+import usersRoutes from '@/routes/usersRoutes';
 
 const whitelist = ['http://localhost:3000', 'http://localhost:5173'];
 const corsOptions: CorsOptions = {

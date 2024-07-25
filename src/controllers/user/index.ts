@@ -3,8 +3,8 @@ import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import ms from 'ms';
 
-import User from '../../models/user';
-import { IUser } from '../../models/user/types';
+import User from '@/models/user';
+import { IUser } from '@/models/user/types';
 
 const expiresIn = '1d'
 const refreshTokenExpiresIn = '7d'
